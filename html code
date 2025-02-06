@@ -1,0 +1,113 @@
+<!--- html---->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening - Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <p>Brewed Awakening </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Brewed Awakening</h1>
+            <p>Where every sip feels like home.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <!-- Coffee Items -->
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738831007/breakfast_mopuda.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso shot.</p>
+                <span>$3.00</span>
+            </article>
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738830882/coffes_i8zifh.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth espresso with steamed milk.</p>
+                <span>$4.50</span>
+            </article>
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738830753/coffe_fick66.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Espresso topped with foamy milk.</p>
+                <span>$4.00</span>
+            </article>
+
+
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738830943/pizzas_nvegfc.jpg" alt="Breakfast Sandwich">
+                <h3>Breakfast Sandwich</h3>
+                <p>Egg, cheese, and bacon on a fresh bun.</p>
+                <span>$5.50</span>
+            </article>
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738830504/bread_pbpk6z.jpg" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes served with syrup.</p>
+                <span>$6.00</span>
+            </article>
+            <article class="menu-item">
+                <img src="https://res.cloudinary.com/dgjrjvxqx/image/upload/v1738830671/pizza_ts5hre.jpg" alt="Waffles">
+                <h3>Waffles</h3>
+                <p>Crispy waffles with honey drizzle.</p>
+                <span>$5.50</span>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Brewed Awakening is more than just coffee. We believe in serving freshly brewed coffee and homemade breakfast items that bring warmth and joy to our customers. Our mission is to create a cozy space where everyone can start their day right.</p>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>@2025 BREWED AWAKENING SHOP..1.5</p>
+    </footer>
+
+</body>
+
+</html>
